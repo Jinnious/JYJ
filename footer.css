@@ -39,14 +39,14 @@
     display: none;
     }
 
-}
+
 
 #button_next2 {
     position: absolute;
     right:20px;
     display: none;
 }
-}
+
 
 
 .logicbutton {
@@ -81,5 +81,7 @@ display: none;
 position: absolute;
 right:20px;
 display: none;
+
+}
 
 }
