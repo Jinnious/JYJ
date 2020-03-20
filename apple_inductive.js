@@ -249,10 +249,10 @@ function StoryOne(){
 function StoryTwo(){
     document.getElementById("button_next").style.display = "block";
     document.getElementById("button_back").style.display = "block";
-    document.querySelector(".image img").src = slideshows[28].image;
+    document.querySelector(".image img").src = slideshows[48].image;
     document.getElementById("storyoptionpage").style.display = "none"; 
     document.querySelector(".image").style.display = "block";
-   index=28;
+   index=48;
 }
 
 
@@ -262,7 +262,7 @@ function displayNext(){
 
     index++;
     if(index >= slideshows.length){
-        index = [0][28];
+        index = [0][48];
       
     }
     
