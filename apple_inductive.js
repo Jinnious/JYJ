@@ -145,6 +145,94 @@ var slideshows = [
 {
     image:"image/apple/48.svg"
 },
+{
+    image:"image/birds/1.svg"
+},
+{
+    image:"image/birds/2.svg"
+},{
+    image:"image/birds/3.svg"
+},{
+    image:"image/birds/4.svg"
+},{
+    image:"image/birds/5.svg"
+},{
+    image:"image/birds/6.svg"
+},{
+    image:"image/birds/7.svg"
+},{
+    image:"image/birds/8.svg"
+},{
+    image:"image/birds/9.svg"
+},{
+    image:"image/birds/10.svg"
+},{
+    image:"image/birds/11.svg"
+},{
+    image:"image/birds/12.svg"
+},{
+    image:"image/birds/13.svg"
+},{
+    image:"image/birds/14.svg"
+},{
+    image:"image/birds/15.svg"
+},{
+    image:"image/birds/16.svg"
+},
+{
+    image:"image/birds/17.svg"
+},
+{
+    image:"image/birds/18.svg"
+},{
+    image:"image/birds/19.svg"
+},{
+    image:"image/birds/20.svg"
+},{
+    image:"image/birds/21.svg"
+},{
+    image:"image/birds/22.svg"
+},{
+    image:"image/birds/23.svg"
+},{
+    image:"image/birds/24.svg"
+},{
+    image:"image/birds/25.svg"
+},{
+    image:"image/birds/26.svg"
+},{
+    image:"image/birds/27.svg"
+},{
+    image:"image/birds/28.svg"
+},{
+    image:"image/birds/29.svg"
+},{
+    image:"image/birds/30.svg"
+},{
+    image:"image/birds/31.svg"
+},{
+    image:"image/birds/32.svg"
+},{
+    image:"image/birds/33.svg"
+},{
+    image:"image/birds/34.svg"
+},{
+    image:"image/birds/35.svg"
+},{
+    image:"image/birds/36.svg"
+},{
+    image:"image/birds/37.svg"
+},{
+    image:"image/birds/38.svg"
+},{
+    image:"image/birds/39.svg"
+},{
+    image:"image/birds/40.svg"
+},{
+    image:"image/birds/41.svg"
+},{
+    image:"image/birds/42.svg"
+},
 ];
 console.log(slideshows,slideshows[1].image);
 
