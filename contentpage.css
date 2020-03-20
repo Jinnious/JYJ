@@ -1,0 +1,22 @@
+@media only screen and (min-width: 992px){
+
+
+    .image {
+        display: none;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-top: 0;
+        
+    }
+    
+    .image img {
+        top: 0;
+        padding: 0;
+        width:70%;
+        height :70%;
+        justify-content: center;
+        align-self: center;
+    
+    }
+}
