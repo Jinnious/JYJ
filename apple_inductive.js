@@ -13,7 +13,7 @@ var slideshows = [
     image:"image/apple/4.svg"
 },
 {
-    image:"image/apple/5.svg.svg"
+    image:"image/apple/5.svg"
 },
 {
     image:"image/apple/6.svg"
@@ -28,104 +28,122 @@ var slideshows = [
     image:"image/apple/9.svg"
 },
 {
-    image:"image/apple/2.svg"
+    image:"image/apple/10.svg"
 },
 {
-    image:"one/first/fourthpage_4.svg"
+    image:"image/apple/11.svg"
 },
 {
-    image:"one/first/fifthpage_1.svg"
+    image:"image/apple/12.svg"
 },
 {
-    image:"one/first/fifthpage_2.svg"
+    image:"image/apple/13.svg"
 },
 {
-    image:"one/first/fifthpage_3.svg"
+    image:"image/apple/14.svg"
 },
 {
-    image:"one/first/sixthpage_1.svg"
+    image:"image/apple/15.svg"
 },
 {
-    image:"one/first/sixthpage_2.svg"
+    image:"image/apple/16.svg"
 },
 {
-    image:"one/first/sixthpage_3.svg"
+    image:"image/apple/17.svg"
 },
 {
-    image:"one/first/sixthpage_4.svg"
+    image:"image/apple/18.svg"
 },
 {
-    image:"one/first/seventhpage_1.svg"
+    image:"image/apple/19.svg"
 },
 {
-    image:"one/first/seventhpage_2.svg"
+    image:"image/apple/20.svg"
 },
 {
-    image:"one/first/seventhpage_3.svg"
+    image:"image/apple/21.svg"
 },
 
 {
-    image:"one/second/1.svg"
+    image:"image/apple/22.svg"
 },
 {
-    image:"one/second/2.svg"
+    image:"image/apple/23.svg"
 },
 {
-    image:"one/second/3.svg"
+    image:"image/apple/24.svg"
 },
 {
-    image:"one/second/4.svg"
+    image:"image/apple/25.svg"
 },
 {
-    image:"one/second/5.svg"
+    image:"image/apple/26.svg"
 },
 {
-    image:"one/second/6.svg"
+    image:"image/apple/27.svg"
 },
 {
-    image:"one/second/7.svg"
+    image:"image/apple/28.svg"
 },
 {
-    image:"one/third/1.svg"
+    image:"image/apple/29.svg"
 },
 {
-    image:"one/third/2.svg"
+    image:"image/apple/30.svg"
 },
 {
-    image:"one/third/3.svg"
+    image:"image/apple/31.svg"
 },
 {
-    image:"one/third/4.svg"
+    image:"image/apple/32.svg"
 },
 {
-    image:"one/third/5.svg"
+    image:"image/apple/33.svg"
 },
 {
-    image:"one/third/6.svg"
+    image:"image/apple/34.svg"
 },
 {
-    image:"one/third/7.svg"
+    image:"image/apple/35.svg"
 },
 {
-    image:"one/third/8.svg"
+    image:"image/apple/36.svg"
 },
 {
-    image:"one/fourth/1.svg"
+    image:"image/apple/37.svg"
 },
 {
-    image:"one/fourth/2.svg"
+    image:"image/apple/38.svg"
 },
 {
-    image:"one/fourth/3.svg"
+    image:"image/apple/39.svg"
 },
 {
-    image:"one/fourth/4.svg"
+    image:"image/apple/40.svg"
 },
 {
-    image:"one/fourth/5.svg"
+    image:"image/apple/41.svg"
 },
 {
-    image:"one/fourth/6.svg"
+    image:"image/apple/42.svg"
+},
+{
+    image:"image/apple/43.svg"
+},
+{
+    image:"image/apple/44.svg"
+},
+{
+    image:"image/apple/45.svg"
+},
+{
+    image:"image/apple/46.svg"
+},
+{
+    image:"image/apple/47.svg"
+},
+{
+    image:"image/apple/48.svg"
 },
 ];
 console.log(slideshows,slideshows[1].image);
