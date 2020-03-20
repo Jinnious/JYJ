@@ -2,11 +2,13 @@
 function start(){
     document.getElementById("logicpage").style.display = "block";
     document.getElementById("homepage").style.display = "none";
-    document.getElementById("button_next").style.display = "block";
-    document.getElementById("button_back").style.display = "block";
+    document.getElementById("logic_next").style.display = "block";
+    document.getElementById("logic_back").style.display = "block";
+
     
 
 }
+
 
 // function displayNext(){
 //     document.getElementById("logicpage").style.display = "none";
