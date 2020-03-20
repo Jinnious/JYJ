@@ -1,0 +1,71 @@
+
+@media only screen and (min-width: 992px){
+
+    html{
+        width: 100%;
+        height: 100%;
+    }
+    #homepage
+    {
+       
+        background-image: linear-gradient(-90deg, #7666e7, #3f93fb, #8b46fc)
+        
+
+    }
+#mainpage {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#circle {
+    width: 70%;
+    height: 70%;
+}
+#logo {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#indellogo {
+
+    position: absolute;
+    z-index: +1;
+    width: 50%;
+    height: 50%;
+}
+
+#button_start{
+
+    width: 31vw;
+    height: 10vh;
+    font-size: 3vw;
+    letter-spacing: 2vw;
+    border: white 5px solid;
+    background-color: transparent;
+    text-align: center;
+    color: white;
+    border-radius: 2em;
+    margin: 15px;
+    cursor: pointer;
+  
+
+}
+}
+
+
+#button_start:hover{
+
+    color: #7666e7;
+    background-color: white;
+}
+
+.center_btn{
+    text-align: center;
+}
+
