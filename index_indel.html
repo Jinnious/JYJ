@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>
+            INDEL
+        </title>
+        <link href="mainpage.css" rel="stylesheet">
+        <link href="header.css" rel="stylesheet">
+        <link href="wavebg.css" rel="stylesheet">
+        <link href="menu.css" rel="stylesheet">
+        <link href="storypage.css" rel="stylesheet">
+        <link href="logicpage.css" rel="stylesheet">
+        <link href="contentpage.css" rel="stylesheet">
+        <link href="footer.css" rel="stylesheet">
+        
+<!-- all css files goes here  -->
+    </head>
+
+<body>
+   
+    <div id="header">
+
+                    <div id="minilogo">        
+                    <img id="indellogo_header" src="indellogo.svg">
+                    </div>
+                
+                         <div class="animated-icon1" onclick="MenuToggle()">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+
+                
+  
+                        <div id="nav-menu">
+                          <ul class="nav-list">
+                            <li class="item"><a href="#">Logic</a></li>
+                            <li class="item"><a href="#">Story1</a></li>
+                            <li class="item"><a href="#">Story2</a></li>
+                          
+                          </ul>
+                        </div>
+                   
+
+           <div id="name_content">STORY 1, INDUCTIVE</div>
+
+
+        
+
+    </div> 
+
+<!-- showing from the storyoption page  -->
+<!-- divided by 7sections  -->
+    <div class="content">
+
+        <div id="bg">
+
+            <svg id="wave"xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1800 600"><defs>
+              <style>.cls-1{fill:url(#linear-gradient);} </style>
+              <linearGradient id="linear-gradient" x1="1050.14" y1="-300.46" x2="15.78" y2="500.24" gradientUnits="userSpaceOnUse"><stop offset="0.12" stop-color="#7666e7"/><stop offset="0.5" stop-color="#3f93fb"/><stop offset="0.7" stop-color="#4243e9"/><stop offset="1" stop-color="#8b46fc"/></linearGradient></defs><title>Asset 2</title><g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><path class="cls-1" d="M0,311.08c10,0,154,85.80,364-24.11s319-130.65,492-108.1,630,138.43,785,80.88c149.37-55.46,193-146.21,279-38.1V0H0Z"/></g></g></svg>
+         </div>   
+
+<!-- main page -->
+<div id="homepage">
+        <div id="mainpage"> 
+            <div id="logo">
+            <img id="circle" src="circle.svg">
+            <img id="indellogo" src="indellogo.svg">
+        </div>
+        <div class="center_btn" >
+        <button id="button_start" onclick="start()"> START  </button>
+         </div>
+         </div>
+
+        </div>
+<!-- mainpage done -->
+
+
+
+         <div id="logicpage">
+            
+            <h1> Logic</h1>
+            <p>
+                Logical describes something that comes from clear reasoning. 
+                Using a fire extinguisher to put it out a fire is a logical step. 
+                Trying to put it out with gasoline is not. 
+            </p>
+
+         </div> 
+
+
+         <div class="image">
+            <img src="one/first/firstpage.svg">
+        </div>
+
+        <div id="storyoptionpage">
+            
+       
+            <div id="storyone" onclick="StoryOne()">
+                <img  class="storyimg" id="story1" src="apple.svg">
+               <h2>Story1</h2>
+            </div>
+    
+            <div id="storytwo" onclick="StoryTwo()">
+                <img class="storyimg" id="story2" src="parrot.svg">
+            <h2>Story2</h2>
+
+        </div>
+
+
+        <div id="apple_inductive">
+
+        </div>
+        
+        <div id="apple_deductive">
+            
+        </div>
+
+        <div id="bird_inductive">
+            
+        </div>
+
+        <div id="bird_deductive">
+            
+        </div>
+
+
+    </div> 
+
+
+
+
+    <div class="footer">
+        <!-- showing from the logic page  -->
+        <button class="buttonbacknext" id="button_back" onclick="Back()">Back</button>
+        <button class="buttonbacknext" id="button_next" onclick="displayNext()">Next</button>
+    </div>
+    <script src="start.js"> </script>
+    <script src="button.js"> </script>
+    <script src="menutoggle.js"> </script>
+    <script src="apple_inductive.js"> </script>
+    <!-- <script src="apple_deductive.js"> </script> -->
+
+
+</body>
+    
+</html>
