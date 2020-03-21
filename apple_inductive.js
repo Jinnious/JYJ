@@ -317,11 +317,16 @@ Start();
 
 // }
 
+
+// link eage pages on menubar//
+
 function Logic() {
 
     document.getElementById("logicpage").style.display = "block";
     document.getElementById("storyone").style.display = "none"; 
     document.getElementById("storytwo").style.display = "none";
+    document.getElementById("logic_next").style.display = "block";
+    document.getElementById("logic_back").style.display = "block";
 
 }
 
@@ -329,11 +334,14 @@ function Logic() {
 
 function Story1() 
 {
+    document.getElementById("logicpage").style.display = "none";
     document.getElementById("button_next").style.display = "block";
     document.getElementById("button_back").style.display = "block";
     document.querySelector(".image img").src = slideshows[0].image;
     document.getElementById("storyoptionpage").style.display = "none"; 
     document.querySelector(".image").style.display = "block";
+    document.getElementById("logic_next").style.display = "none"; 
+    document.getElementById("logic_back").style.display = "none"; 
    index=0;
 }
 
@@ -347,5 +355,7 @@ function Story2()
     document.querySelector(".image").style.display = "block";
    index=48;
 }
+
+// link eage pages on menubar --------done //
 
 
