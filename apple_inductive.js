@@ -1,3 +1,67 @@
+
+
+var menu_state = false; 
+
+
+function MenuToggle(){
+    console.log("menu state before it/else", menu_state);
+    if(menu_state === false){
+        MenuOpen();
+       
+
+    } else {
+        MenuClose();
+        
+    }
+    console.log("menu state after it/else", menu_state);
+}
+
+
+function MenuOpen(){
+    document.querySelector("#nav-menu").style.display = "block";
+
+    setTimeout(function(){
+        document.querySelector("#nav-menu").style.opacity = 1;
+    }, 100);
+   
+    menu_state = true;
+}
+
+function MenuClose(){
+    // console.log("CLICK");
+
+
+    setTimeout(function(){
+        document.querySelector("#nav-menu").style.display = "none";
+    },300);
+    
+    document.querySelector("#nav-menu").style.opacity = 0;
+    menu_state = false;
+
+}
+
+
+
+// document.querySelector( "#nav-toggle" )
+//   .addEventListener( "click", function() {
+//     this.classList.toggle( "active" );
+//   });
+
+//FAIL: I'd like to get "X" navigation when the menu is open. but it's not working 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 var index = [0][28];
 var slideshows = [
 {
@@ -327,6 +391,7 @@ function Logic() {
     document.getElementById("storytwo").style.display = "none";
     document.getElementById("logic_next").style.display = "block";
     document.getElementById("logic_back").style.display = "block";
+    document.querySelector("#nav-menu").style.opacity = 0;
 
 }
 
@@ -342,6 +407,7 @@ function Story1()
     document.querySelector(".image").style.display = "block";
     document.getElementById("logic_next").style.display = "none"; 
     document.getElementById("logic_back").style.display = "none"; 
+    document.querySelector("#nav-menu").style.opacity = 0;
    index=0;
 }
 
@@ -353,9 +419,15 @@ function Story2()
     document.querySelector(".image img").src = slideshows[48].image;
     document.getElementById("storyoptionpage").style.display = "none"; 
     document.querySelector(".image").style.display = "block";
+    document.querySelector("#nav-menu").style.opacity = 0;
    index=48;
 }
 
 // link eage pages on menubar --------done //
+
+
+
+
+
 
 
