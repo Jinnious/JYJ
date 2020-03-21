@@ -317,5 +317,35 @@ Start();
 
 // }
 
+function Logic() {
+
+    document.getElementById("logicpage").style.display = "block";
+    document.getElementById("storyone").style.display = "none"; 
+    document.getElementById("storytwo").style.display = "none";
+
+}
+
+
+
+function Story1() 
+{
+    document.getElementById("button_next").style.display = "block";
+    document.getElementById("button_back").style.display = "block";
+    document.querySelector(".image img").src = slideshows[0].image;
+    document.getElementById("storyoptionpage").style.display = "none"; 
+    document.querySelector(".image").style.display = "block";
+   index=0;
+}
+
+
+function Story2() 
+{
+    document.getElementById("button_next").style.display = "block";
+    document.getElementById("button_back").style.display = "block";
+    document.querySelector(".image img").src = slideshows[48].image;
+    document.getElementById("storyoptionpage").style.display = "none"; 
+    document.querySelector(".image").style.display = "block";
+   index=48;
+}
 
 

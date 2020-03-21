@@ -41,8 +41,13 @@ function MenuClose(){
 }
 
 
-// $(document).ready(function(){
-// 	$('.animated-icon1').click(function(){
-// 		$(this).toggleClass('open');
-// 	});
-// });
+
+// document.querySelector( "#nav-toggle" )
+//   .addEventListener( "click", function() {
+//     this.classList.toggle( "active" );
+//   });
+
+//FAIL: I'd like to get "X" navigation when the menu is open. but it's not working 
+
+
+
