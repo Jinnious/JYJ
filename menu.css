@@ -54,14 +54,14 @@
     
   }
     
-    .animated-icon1.open span:nth-child(2) {
+    .animated-icon1.active span:nth-child(2) {
       -webkit-transform: rotate(45deg);
       -moz-transform: rotate(45deg);
       -o-transform: rotate(45deg);
       transform: rotate(45deg);
     }
     
-    .animated-icon1.open span:nth-child(3) {
+    .animated-icon1.active span:nth-child(3) {
       -webkit-transform: rotate(-45deg);
       -moz-transform: rotate(-45deg);
       -o-transform: rotate(-45deg);
@@ -71,7 +71,7 @@
     
     
 
-    .animated-icon1.open span:nth-child(4) {
+    .animated-icon1.active span:nth-child(4) {
       top: 18px;
       width: 0%;
     
@@ -96,6 +96,13 @@ top: 50%;
   
 
 }
+
+.open {
+  left: 0px;
+  transition: left linear .2s;
+}
+
+
     .item 
     {
       left: 0;
@@ -119,4 +126,10 @@ top: 50%;
       text-decoration: none;
       color: white;
       padding: 20px;
+    }
+
+    .item a:hover {
+      color : #7666e7 ;
+      background-color: white;
+      border: white 5px solid;
     }
