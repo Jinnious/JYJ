@@ -64,6 +64,7 @@ function MenuClose(){
 
 var index = [0][28];
 var slideshows = [
+
 {
     image:"image/apple/1.svg"
 },
@@ -391,6 +392,9 @@ function Logic() {
     document.getElementById("storytwo").style.display = "none";
     document.getElementById("logic_next").style.display = "block";
     document.getElementById("logic_back").style.display = "block";
+    document.getElementById("button_next").style.display = "none"; 
+    document.getElementById("button_back").style.display = "none"; 
+    document.querySelector(".image").style.display = "none";
     document.querySelector("#nav-menu").style.opacity = 0;
 
 }
