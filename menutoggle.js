@@ -51,3 +51,26 @@ function MenuClose(){
 
 
 
+
+var logic_state = false; 
+
+
+
+function Logic(){
+    console.log("logic state before it/else", menu_state);
+    if(logic_state === false){
+        LogicOpen();
+       
+
+    } else {
+        LogicClose();
+        
+    }
+    console.log("logic state after it/else", menu_state);
+}
+
+
+
+    // console.log("CLICK");
+
+

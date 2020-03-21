@@ -52,18 +52,9 @@ function MenuClose(){
 
 
 
-
-
-
-
-
-
-
-
-
-
 var index = [0][28];
 var slideshows = [
+    
 {
     image:"image/apple/1.svg"
 },
@@ -300,89 +291,11 @@ var slideshows = [
 ];
 console.log(slideshows,slideshows[1].image);
 
-function StoryOne(){
-    document.getElementById("button_next").style.display = "block";
-    document.getElementById("button_back").style.display = "block";
-    document.querySelector(".image img").src = slideshows[0].image;
-    document.getElementById("storyoptionpage").style.display = "none"; 
-    document.querySelector(".image").style.display = "block";
-   index=0;
-}
 
-
-function StoryTwo(){
-    document.getElementById("button_next").style.display = "block";
-    document.getElementById("button_back").style.display = "block";
-    document.querySelector(".image img").src = slideshows[48].image;
-    document.getElementById("storyoptionpage").style.display = "none"; 
-    document.querySelector(".image").style.display = "block";
-   index=48;
-}
-
-
-
-function displayNext(){
-
-
-    index++;
-    if(index >= slideshows.length){
-        index = [0][48];
-      
-    }
-    
-    document.querySelector(".image img").src = slideshows[index].image;
-}
-
-function logicNext(){
-    document.getElementById("logicpage").style.display = "none";
-    document.getElementById("storyone").style.display = "block"; 
-    document.getElementById("storytwo").style.display = "block";
-    document.getElementById("header").style.display = "block";
-    document.getElementById("bg").style.display = "block";
-    document.getElementById("logic_next").style.display = "none";
-    document.getElementById("logic_back").style.display = "none";
-
-}
-
-function Back(){
-    index--;
-    if(index <= slideshows.length){
-        index > 0;
-    }
-
-    document.querySelector(".image img").src = slideshows[index].image;
-}
-
-function logicBack(){
-    document.getElementById("logicpage").style.display = "none";
-    document.getElementById("header").style.display = "none";
-    document.getElementById("bg").style.display = "none";
-    document.getElementById("logic_next").style.display = "none";
-    document.getElementById("logic_back").style.display = "none";
-    document.getElementById("homepage").style.display = "block";
-
-
-
-
-}
-Start();
-// function Next(){
-//     if (document.getElementById("button_next2").style.display = "block")
-//     document.getElementById("button_next2").style.display = "none";
-
-//     index++;
-//     if(index >= slideshows.length){
-//         index = 0;
-//     }
-//     document.querySelector(".image img").src = slideshows[index].image;
-//     {document.querySelector(".image img").src = slideshows[0].image;
-//     document.querySelector(".image").style.display = "block";
-//     }
-
-// }
 
 
 // link eage pages on menubar//
+
 
 function Logic() {
 
@@ -392,9 +305,11 @@ function Logic() {
     document.getElementById("logic_next").style.display = "block";
     document.getElementById("logic_back").style.display = "block";
     document.querySelector("#nav-menu").style.opacity = 0;
+    document.querySelector(".image").style.display = "none";
+    document.getElementById("button_next").style.display = "none";
+    document.getElementById("button_back").style.display = "none";
 
 }
-
 
 
 function Story1() 
@@ -429,5 +344,94 @@ function Story2()
 
 
 
+
+
+function StoryOne(){
+    document.getElementById("button_next").style.display = "block";
+    document.getElementById("button_back").style.display = "block";
+    document.querySelector(".image img").src = slideshows[0].image;
+    document.getElementById("storyoptionpage").style.display = "none"; 
+    document.querySelector(".image").style.display = "block";
+   index=0;
+}
+
+
+function StoryTwo(){
+    document.getElementById("button_next").style.display = "block";
+    document.getElementById("button_back").style.display = "block";
+    document.querySelector(".image img").src = slideshows[48].image;
+    document.getElementById("storyoptionpage").style.display = "none"; 
+    document.querySelector(".image").style.display = "block";
+   index=48;
+}
+
+
+
+function displayNext(){
+
+    
+
+
+    index++;
+    if(index >= slideshows.length){
+        index = [0][48];
+      
+    }
+    
+    document.querySelector(".image img").src = slideshows[index].image;
+}
+
+
+function Back(){
+    index--;
+    if(index <= slideshows.length){
+        index > 0;
+    }
+
+    document.querySelector(".image img").src = slideshows[index].image;
+}
+
+
+function logicNext(){
+    document.getElementById("logicpage").style.display = "none";
+    document.getElementById("storyone").style.display = "block"; 
+    document.getElementById("storytwo").style.display = "block";
+    document.getElementById("header").style.display = "block";
+    document.getElementById("bg").style.display = "block";
+    document.getElementById("logic_next").style.display = "none";
+    document.getElementById("logic_back").style.display = "none";
+    // document.getElementById("storyoptionpage").style.display = "block"; 
+
+}
+
+
+
+function logicBack(){
+    document.getElementById("logicpage").style.display = "none";
+    document.getElementById("header").style.display = "none";
+    document.getElementById("bg").style.display = "none";
+    document.getElementById("logic_next").style.display = "none";
+    document.getElementById("logic_back").style.display = "none";
+    document.getElementById("homepage").style.display = "block";
+
+
+
+
+}
+Start();
+// function Next(){
+//     if (document.getElementById("button_next2").style.display = "block")
+//     document.getElementById("button_next2").style.display = "none";
+
+//     index++;
+//     if(index >= slideshows.length){
+//         index = 0;
+//     }
+//     document.querySelector(".image img").src = slideshows[index].image;
+//     {document.querySelector(".image img").src = slideshows[0].image;
+//     document.querySelector(".image").style.display = "block";
+//     }
+
+// }
 
 
