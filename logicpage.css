@@ -12,7 +12,17 @@
     font-weight: bold;
 }
 
+
+
+
+#logicpage span{
+
+    height: 20px;
+}
+
 #logicpage p {
+white-space: pre-line;
     font-size: 35px;
+    
 }
 
